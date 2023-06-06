@@ -9,7 +9,6 @@ from sklearn.cluster import KMeans
 
 X, y = load_iris(return_X_y=True)
 
-
 # elbow method
 
 #Find optimum number of cluster
