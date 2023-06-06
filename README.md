@@ -25,10 +25,11 @@ In regression, the target variable is a continuous value. The goal of regression
 - LGBM Regressor
 
 Evaluation Metrics:
-- Precision  
-- Recall  
-- F1-score  
-- Confusion matrix
+- Mean Square Error
+- R2-score 
+- MAPE 
+
+
 
 ### Classification
 
@@ -38,11 +39,23 @@ In classification, the target variable is a categorical value. The goal of class
 - Random Forest Classifier
 - K-Nearest Neighbors
 - Support vector Machine
+- Logistic Regression  
+- Single Layer Perceptron 
+- Stochastic Gradient Descent SGD classifier
+- Naive Bayes 
+- AdaBoots  
+- Bagging Classifier  
+- Multi-layer Artificial Neural Networks
 
-Evaluation Metrics:
-- Mean Square Error
-- R2-score 
-- MAPE  
+Evaluation Metrics / Model evaluations:
+- **Clasification Accuracy**: The proportion of correctly classified instances.
+- **Precision**:  (true positives)/(predicted positives)
+- **Recall**: (true positives)/(total number of actual positives)
+- **F1-score**: metrica cuando precision y recall are important -- 2 x (precision x recall) / (precision + recall).
+- **ROC**: Receiver Operating Characteristic. ROC is a plot of the true positive rate (recall) against the false positive rate (1-specificity) for different threshold values of the classifier’s decision function.
+- **AUC**: measures the overall performance of the classifier, with values ranging from 0.5 (random guessing) to 1 (perfect classification).
+- **Confusion matrix**: A table that shows the number of true positives, true negatives, false positives, and false negatives for each class, which can be used to calculate various evaluation metrics.
+- **Cross Validation**: A technique that divides the data into multiple folds and trains the model on each fold while testing on the others, to obtain a more robust estimate of the model’s performance
 
 
 
