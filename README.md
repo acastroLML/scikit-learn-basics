@@ -19,6 +19,16 @@ Supervised learning is typically divided into two main categories: regression an
 
 In regression, the target variable is a continuous value. The goal of regression is to predict the value of the target variable based on the input variables. **Linear regression, polynomial regression, and decision trees** are some of the examples of regression algorithms.
 
+- Linear Regression
+- Polynomial Regression
+- Stepwise regression
+- Decision tree Regression
+- Random Forest Regression
+- Support vector Regression
+- Ridge Regression
+- ElasticNet Regression
+- Bayesian Linear Regression 
+
 - Lasso Regression
 - Ridge Regression
 - XGBoots Regressor
